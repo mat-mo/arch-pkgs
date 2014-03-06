@@ -1,0 +1,26 @@
+/usr/bin/ruby extconf.rb
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/usr/bin/ruby
+/usr/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- pkg-config (LoadError)
+	from /usr/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/matanya/abs/arch-pkgs/ruby-glib2/pkg/ruby-glib2/usr/lib/ruby/gems/2.1.0/gems/glib2-2.1.0/lib/mkmf-gnome2.rb:14:in `<top (required)>'
+	from /usr/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /usr/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from extconf.rb:15:in `<main>'
+
+extconf failed, exit code 1
